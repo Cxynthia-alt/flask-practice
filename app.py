@@ -9,6 +9,12 @@ app.config['SECRET_KEY'] = "oh-so-secret"
 debug = DebugToolbarExtension(app)
 
 
+@app.route('/home')
+def home_page():
+    """show home page"""
+    return render_template('home.html')
+
+
 @app.route('/hello/<username>')
 def say_hello(username):
     return render_template('hello.html')

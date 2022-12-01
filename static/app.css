@@ -4,24 +4,28 @@ h1 {
 
 body {
   background-color: bisque;
-  overflow: hidden;
+
 }
 
 .navbar {
-  background-color: whitesmoke;
+  background-color: blanchedalmond;
+  overflow: hidden;
 }
 
 .navbar a {
   float: left;
-  color: azure;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  width: 100%;
 }
 
 .navbar a:hover {
-  background-color: blanchedalmond;
+  background-color: whitesmoke;
 
+}
+
+#content {
+  margin: 20px;
 }
